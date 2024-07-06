@@ -24,6 +24,15 @@
 body {
   width: 100%;
   min-height: 100vh;
+  font-family: var(--ff-inter);
+  font-weight: var(--fw-regular);
+  font-size: 0.9375rem;
+  padding: 1.5rem;
+  background: hsl(var(--clr-bg));
+  color: hsl(var(--clr-white));
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p,
