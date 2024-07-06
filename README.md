@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-and-accessible-state-preview-card-component-xFui-IxZD3](https://www.frontendmentor.io/solutions/responsive-and-accessible-state-preview-card-component-xFui-IxZD3)
 - Live Site URL: [https://lunr-ish.github.io/stats-preview-card-component/](https://lunr-ish.github.io/stats-preview-card-component/)
 
 ## My process
