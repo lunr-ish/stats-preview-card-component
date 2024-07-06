@@ -62,3 +62,28 @@ ul {
   white-space: nowrap;
   width: 1px;
 }
+
+/* CARD */
+
+.card {
+  max-width: 69.375rem;
+  background: hsl(var(--clr-card-bg));
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem -0.5rem rgba(0, 0, 0, 0.1);
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 64rem) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .card__header {
+    order: 2;
+  }
+}
