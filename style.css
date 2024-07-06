@@ -98,7 +98,7 @@ img {
 }
 
 .card__title {
-  font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
   line-height: 1.15;
 }
 
@@ -106,6 +106,33 @@ img {
   margin-top: clamp(1rem, 3vw, 1.8rem);
   margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
   flex: 1;
+  color: hsl(var(--clr-white) / 75%);
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.stats__figure {
+  font-weight: var(--fw-bold);
+  font-size: 1.5rem;
+}
+
+.stats__description {
+  font-family: var(--ff-lexend-deca);
+  font-size: 0.8125rem;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  color: hsl(var(--clr-white) / 60%);
 }
 
 @media (min-width: 50rem) {
@@ -126,6 +153,11 @@ img {
   .card__content {
     padding: clamp(2rem, 5vw, 4.5rem);
     padding-bottom: clamp(2.3rem, 5vw, 4rem);
+  }
+
+  .stats {
+    flex-direction: row;
+    gap: 4rem;
   }
 }
 
