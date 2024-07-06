@@ -87,8 +87,13 @@ ul {
   display: flex;
 }
 
+.img-wrapper {
+  background: hsl(var(--clr-accent));
+}
+
 img {
   object-fit: cover;
+  mix-blend-mode: multiply;
 }
 
 .card__content {
